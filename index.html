@@ -1,5 +1,6 @@
 <canvas id="hero-lightpass" />
-	const html = document.documentElement;
+<script>
+const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
@@ -39,5 +40,6 @@ window.addEventListener('scroll', () => {
   
   requestAnimationFrame(() => updateImage(frameIndex + 1))
 });
+</script>
 
 preloadImages()
