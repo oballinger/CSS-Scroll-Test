@@ -1,5 +1,4 @@
 <canvas id="hero-lightpass" />
-<script>
 	const html = document.documentElement;
 	const canvas = document.getElementById("hero-lightpass");
 	const context = canvas.getContext("2d");
@@ -28,7 +27,6 @@
 		img.src = currentFrame(index);
 		context.drawImage(img, 0, 0);
 	}
-</script>
 
-preloadImages()
+	preloadImages()
 
